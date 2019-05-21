@@ -1,3 +1,4 @@
 build
 test_package
-conanfile.py
+cmake-build-debug
+scripts/vcpkg

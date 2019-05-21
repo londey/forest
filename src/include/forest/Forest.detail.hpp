@@ -4,9 +4,7 @@
 #include <cstddef>
 #include <utility>
 
-namespace forest
-{
-namespace detail
+namespace forest::detail
 {
 template <typename T>
 struct forest_node
@@ -20,7 +18,7 @@ struct forest_node
     template <typename FT>
     forest_node(FT &&value) : value_{std::forward<FT>(value)} {}
 };
-} // namespace detail
-} // namespace forest
+
+}
 
 #endif

@@ -1,7 +1,7 @@
 #ifndef FOREST_SUBFOREST_HPP
 #define FOREST_SUBFOREST_HPP
 
-#include "forest.detail.hpp"
+#include "Forest.detail.hpp"
 
 namespace forest
 {
