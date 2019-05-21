@@ -1,0 +1,4 @@
+build
+test_package
+cmake-build-debug
+scripts/vcpkg
